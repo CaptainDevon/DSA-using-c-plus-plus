@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int PeakElm(int arr[],int n)
+int Peak_Element(int arr[],int n)
 {
     for(int i=1;i<n-1;i++)
     {
@@ -10,7 +10,8 @@ int PeakElm(int arr[],int n)
     }
     return 0;
 }
-int main() {
+int main() 
+{
     int arr[]={1,2,7,4,5};
     int n=sizeof(arr)/sizeof(arr[0]);
     PeakElm(arr,n);
